@@ -1,0 +1,156 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM1osXr9sa+0vh38aauumux",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AnjaliAleti/Aleti_INFO5731_Fall2024/blob/main/In_class_excersise_3%262\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yy8WC7grFahM"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import requests\n",
+        "import pandas as pd\n",
+        "from collections import Counter\n",
+        "\n",
+        "API_URL = \"https://remoteok.com/api\"\n",
+        "\n",
+        "# Send request (RemoteOK requires a user-agent header)\n",
+        "headers = {\"User-Agent\": \"Mozilla/5.0\"}\n",
+        "response = requests.get(API_URL, headers=headers)\n",
+        "\n",
+        "data = response.json()\n",
+        "\n",
+        "# The first object is metadata — remove it\n",
+        "jobs = [job for job in data if isinstance(job, dict) and job.get(\"id\")]\n",
+        "\n",
+        "# Q1: Total number of job postings\n",
+        "total_jobs = len(jobs)\n",
+        "print(\"Q1: Total job postings =\", total_jobs)\n",
+        "\n",
+        "# Q2: Top 3 most frequent companies\n",
+        "companies = [job.get(\"company\", \"Unknown\") for job in jobs]\n",
+        "top_3_companies = Counter(companies).most_common(3)\n",
+        "print(\"Q2: Top 3 companies =\", top_3_companies)\n",
+        "\n",
+        "# Q3: Titles containing \"Data\" (case-insensitive)\n",
+        "data_jobs_count = sum(\n",
+        "    1 for job in jobs\n",
+        "    if \"data\" in job.get(\"position\", \"\").lower()\n",
+        ")\n",
+        "print('Q3: Jobs containing \"Data\" in title =', data_jobs_count)\n",
+        "\n",
+        "# Q4: Create DataFrame with first 10 jobs\n",
+        "rows = []\n",
+        "\n",
+        "for job in jobs[:10]:\n",
+        "    rows.append({\n",
+        "        \"title\": job.get(\"position\"),\n",
+        "        \"company\": job.get(\"company\"),\n",
+        "        \"location\": job.get(\"location\") if job.get(\"location\") else \"Unknown\",\n",
+        "        \"salary\": job.get(\"salary\") if job.get(\"salary\") else None,\n",
+        "        \"tags\": \", \".join(job.get(\"tags\", []))\n",
+        "    })\n",
+        "\n",
+        "df = pd.DataFrame(rows)\n",
+        "\n",
+        "print(\"\\nFirst 10 job postings:\")\n",
+        "print(df.head(10))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RRpLQYvUFpY8",
+        "outputId": "3c18a310-41da-45e4-8267-243394a09323"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Q1: Total job postings = 95\n",
+            "Q2: Top 3 companies = [('Anduril Industries', 3), ('Versaterm', 3), ('Ubiminds', 3)]\n",
+            "Q3: Jobs containing \"Data\" in title = 3\n",
+            "\n",
+            "First 10 job postings:\n",
+            "                                             title               company  \\\n",
+            "0  Senior Technical Program Manager Infrastructure                Planet   \n",
+            "1                              Web Program Manager              Huntress   \n",
+            "2        Senior Program Manager Workforce Planning                Fluxon   \n",
+            "3        Senior Principal SEO GEO & Search Systems              Workwize   \n",
+            "4       Senior Full Stack Software Engineer Growth             Circle.so   \n",
+            "5                 Enterprise Account Executive KSA               Dataiku   \n",
+            "6                    Strategic Partner Manager GSI        Armis Security   \n",
+            "7                           React Native Developer  Bluelight Consulting   \n",
+            "8                  Customer Service Representative        Wing Assistant   \n",
+            "9            Staff Software Engineer Platform Team               Wellhub   \n",
+            "\n",
+            "                   location salary  \\\n",
+            "0             United States   None   \n",
+            "1  United States of America   None   \n",
+            "2             United States   None   \n",
+            "3                 Amsterdam   None   \n",
+            "4                    Remote   None   \n",
+            "5              Saudi Arabia   None   \n",
+            "6                    London   None   \n",
+            "7       Panama City, Panama   None   \n",
+            "8       Manila, Philippines   None   \n",
+            "9                   Unknown   None   \n",
+            "\n",
+            "                                                tags  \n",
+            "0               manager, technical, software, senior  \n",
+            "1  web, manager, saas, security, game, senior, op...  \n",
+            "2  manager, management, senior, operational, engi...  \n",
+            "3                                  saas, seo, senior  \n",
+            "4  software, growth, full-stack, senior, analytic...  \n",
+            "5  software, management, analytics, sales, executive  \n",
+            "6  infosec, manager, security, growth, management...  \n",
+            "7  react, consulting, developer, ios, consultant,...  \n",
+            "8  virtual assistant, security, support, software...  \n",
+            "9                                 software, engineer  \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "OOyZV4HTGinL"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
