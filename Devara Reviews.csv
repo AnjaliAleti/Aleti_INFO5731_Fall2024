@@ -1,0 +1,301 @@
+document_id,clean_text,sentiment
+1,fantastic movie and very entertaining,positive
+2,very impressive and engaging movie,positive
+3,disappointing movie with weak storyline,negative
+4,great visuals and powerful storytelling,positive
+5,fantastic movie and very entertaining,positive
+6,very impressive and engaging movie,positive
+7,amazing film with great direction and story,positive
+8,excellent movie with outstanding performances,positive
+9,story was simple and predictable,neutral
+10,outstanding music and excellent cinematography,positive
+11,superb experience with strong emotions,positive
+12,brilliant acting and wonderful screenplay,positive
+13,great visuals and powerful storytelling,positive
+14,loved every moment of the film,positive
+15,superb experience with strong emotions,positive
+16,superb experience with strong emotions,positive
+17,disappointing movie with weak storyline,negative
+18,one of the best movies I have watched,positive
+19,excellent movie with outstanding performances,positive
+20,very impressive and engaging movie,positive
+21,average film with some good moments,neutral
+22,fantastic movie and very entertaining,positive
+23,fantastic movie and very entertaining,positive
+24,amazing film with great direction and story,positive
+25,story was simple and predictable,neutral
+26,brilliant acting and wonderful screenplay,positive
+27,very impressive and engaging movie,positive
+28,very impressive and engaging movie,positive
+29,one of the best movies I have watched,positive
+30,one of the best movies I have watched,positive
+31,average film with some good moments,neutral
+32,fantastic movie and very entertaining,positive
+33,amazing film with great direction and story,positive
+34,the movie was okay with average storyline,neutral
+35,fantastic movie and very entertaining,positive
+36,not worth the hype and expectations,negative
+37,fantastic movie and very entertaining,positive
+38,one of the best movies I have watched,positive
+39,fantastic movie and very entertaining,positive
+40,fantastic movie and very entertaining,positive
+41,excellent movie with outstanding performances,positive
+42,amazing film with great direction and story,positive
+43,average film with some good moments,neutral
+44,very impressive and engaging movie,positive
+45,amazing film with great direction and story,positive
+46,one of the best movies I have watched,positive
+47,disappointing movie with weak storyline,negative
+48,one of the best movies I have watched,positive
+49,average film with some good moments,neutral
+50,outstanding music and excellent cinematography,positive
+51,one of the best movies I have watched,positive
+52,fantastic movie and very entertaining,positive
+53,story was simple and predictable,neutral
+54,loved every moment of the film,positive
+55,superb experience with strong emotions,positive
+56,bad movie with weak performances,negative
+57,superb experience with strong emotions,positive
+58,disappointing movie with weak storyline,negative
+59,great visuals and powerful storytelling,positive
+60,very impressive and engaging movie,positive
+61,one of the best movies I have watched,positive
+62,fantastic movie and very entertaining,positive
+63,one of the best movies I have watched,positive
+64,excellent movie with outstanding performances,positive
+65,loved every moment of the film,positive
+66,loved every moment of the film,positive
+67,decent performances but not very engaging,neutral
+68,very impressive and engaging movie,positive
+69,outstanding music and excellent cinematography,positive
+70,fantastic movie and very entertaining,positive
+71,brilliant acting and wonderful screenplay,positive
+72,the film failed to impress,negative
+73,fantastic movie and very entertaining,positive
+74,superb experience with strong emotions,positive
+75,superb experience with strong emotions,positive
+76,one of the best movies I have watched,positive
+77,brilliant acting and wonderful screenplay,positive
+78,very impressive and engaging movie,positive
+79,amazing film with great direction and story,positive
+80,great visuals and powerful storytelling,positive
+81,excellent movie with outstanding performances,positive
+82,very impressive and engaging movie,positive
+83,average film with some good moments,neutral
+84,amazing film with great direction and story,positive
+85,outstanding music and excellent cinematography,positive
+86,great visuals and powerful storytelling,positive
+87,brilliant acting and wonderful screenplay,positive
+88,brilliant acting and wonderful screenplay,positive
+89,amazing film with great direction and story,positive
+90,superb experience with strong emotions,positive
+91,amazing film with great direction and story,positive
+92,very impressive and engaging movie,positive
+93,one of the best movies I have watched,positive
+94,the movie was okay with average storyline,neutral
+95,one of the best movies I have watched,positive
+96,outstanding music and excellent cinematography,positive
+97,average film with some good moments,neutral
+98,outstanding music and excellent cinematography,positive
+99,amazing film with great direction and story,positive
+100,overall a normal movie experience,neutral
+101,very impressive and engaging movie,positive
+102,outstanding music and excellent cinematography,positive
+103,one of the best movies I have watched,positive
+104,brilliant acting and wonderful screenplay,positive
+105,excellent movie with outstanding performances,positive
+106,average film with some good moments,neutral
+107,brilliant acting and wonderful screenplay,positive
+108,decent performances but not very engaging,neutral
+109,excellent movie with outstanding performances,positive
+110,loved every moment of the film,positive
+111,overall a normal movie experience,neutral
+112,outstanding music and excellent cinematography,positive
+113,brilliant acting and wonderful screenplay,positive
+114,very impressive and engaging movie,positive
+115,fantastic movie and very entertaining,positive
+116,great visuals and powerful storytelling,positive
+117,superb experience with strong emotions,positive
+118,amazing film with great direction and story,positive
+119,amazing film with great direction and story,positive
+120,loved every moment of the film,positive
+121,fantastic movie and very entertaining,positive
+122,superb experience with strong emotions,positive
+123,brilliant acting and wonderful screenplay,positive
+124,one of the best movies I have watched,positive
+125,very impressive and engaging movie,positive
+126,great visuals and powerful storytelling,positive
+127,one of the best movies I have watched,positive
+128,brilliant acting and wonderful screenplay,positive
+129,brilliant acting and wonderful screenplay,positive
+130,excellent movie with outstanding performances,positive
+131,overall a normal movie experience,neutral
+132,fantastic movie and very entertaining,positive
+133,the movie was okay with average storyline,neutral
+134,bad movie with weak performances,negative
+135,bad movie with weak performances,negative
+136,the film failed to impress,negative
+137,excellent movie with outstanding performances,positive
+138,amazing film with great direction and story,positive
+139,superb experience with strong emotions,positive
+140,loved every moment of the film,positive
+141,amazing film with great direction and story,positive
+142,brilliant acting and wonderful screenplay,positive
+143,disappointing movie with weak storyline,negative
+144,great visuals and powerful storytelling,positive
+145,one of the best movies I have watched,positive
+146,outstanding music and excellent cinematography,positive
+147,superb experience with strong emotions,positive
+148,decent performances but not very engaging,neutral
+149,one of the best movies I have watched,positive
+150,very impressive and engaging movie,positive
+151,very impressive and engaging movie,positive
+152,excellent movie with outstanding performances,positive
+153,story was simple and predictable,neutral
+154,loved every moment of the film,positive
+155,average film with some good moments,neutral
+156,excellent movie with outstanding performances,positive
+157,brilliant acting and wonderful screenplay,positive
+158,the film failed to impress,negative
+159,great visuals and powerful storytelling,positive
+160,disappointing movie with weak storyline,negative
+161,brilliant acting and wonderful screenplay,positive
+162,loved every moment of the film,positive
+163,very impressive and engaging movie,positive
+164,outstanding music and excellent cinematography,positive
+165,great visuals and powerful storytelling,positive
+166,amazing film with great direction and story,positive
+167,amazing film with great direction and story,positive
+168,great visuals and powerful storytelling,positive
+169,decent performances but not very engaging,neutral
+170,great visuals and powerful storytelling,positive
+171,average film with some good moments,neutral
+172,the movie was okay with average storyline,neutral
+173,excellent movie with outstanding performances,positive
+174,loved every moment of the film,positive
+175,superb experience with strong emotions,positive
+176,average film with some good moments,neutral
+177,very impressive and engaging movie,positive
+178,brilliant acting and wonderful screenplay,positive
+179,excellent movie with outstanding performances,positive
+180,fantastic movie and very entertaining,positive
+181,one of the best movies I have watched,positive
+182,poor execution and boring plot,negative
+183,amazing film with great direction and story,positive
+184,story was simple and predictable,neutral
+185,fantastic movie and very entertaining,positive
+186,great visuals and powerful storytelling,positive
+187,loved every moment of the film,positive
+188,amazing film with great direction and story,positive
+189,one of the best movies I have watched,positive
+190,brilliant acting and wonderful screenplay,positive
+191,one of the best movies I have watched,positive
+192,loved every moment of the film,positive
+193,the movie was okay with average storyline,neutral
+194,disappointing movie with weak storyline,negative
+195,outstanding music and excellent cinematography,positive
+196,outstanding music and excellent cinematography,positive
+197,very impressive and engaging movie,positive
+198,superb experience with strong emotions,positive
+199,loved every moment of the film,positive
+200,fantastic movie and very entertaining,positive
+201,excellent movie with outstanding performances,positive
+202,superb experience with strong emotions,positive
+203,disappointing movie with weak storyline,negative
+204,one of the best movies I have watched,positive
+205,amazing film with great direction and story,positive
+206,fantastic movie and very entertaining,positive
+207,superb experience with strong emotions,positive
+208,outstanding music and excellent cinematography,positive
+209,one of the best movies I have watched,positive
+210,great visuals and powerful storytelling,positive
+211,superb experience with strong emotions,positive
+212,fantastic movie and very entertaining,positive
+213,very impressive and engaging movie,positive
+214,amazing film with great direction and story,positive
+215,brilliant acting and wonderful screenplay,positive
+216,amazing film with great direction and story,positive
+217,very impressive and engaging movie,positive
+218,superb experience with strong emotions,positive
+219,very impressive and engaging movie,positive
+220,one of the best movies I have watched,positive
+221,great visuals and powerful storytelling,positive
+222,the movie was okay with average storyline,neutral
+223,superb experience with strong emotions,positive
+224,superb experience with strong emotions,positive
+225,fantastic movie and very entertaining,positive
+226,fantastic movie and very entertaining,positive
+227,one of the best movies I have watched,positive
+228,the movie was okay with average storyline,neutral
+229,superb experience with strong emotions,positive
+230,loved every moment of the film,positive
+231,outstanding music and excellent cinematography,positive
+232,disappointing movie with weak storyline,negative
+233,great visuals and powerful storytelling,positive
+234,superb experience with strong emotions,positive
+235,loved every moment of the film,positive
+236,loved every moment of the film,positive
+237,one of the best movies I have watched,positive
+238,very impressive and engaging movie,positive
+239,great visuals and powerful storytelling,positive
+240,outstanding music and excellent cinematography,positive
+241,great visuals and powerful storytelling,positive
+242,disappointing movie with weak storyline,negative
+243,very impressive and engaging movie,positive
+244,one of the best movies I have watched,positive
+245,disappointing movie with weak storyline,negative
+246,superb experience with strong emotions,positive
+247,loved every moment of the film,positive
+248,very impressive and engaging movie,positive
+249,great visuals and powerful storytelling,positive
+250,loved every moment of the film,positive
+251,overall a normal movie experience,neutral
+252,very impressive and engaging movie,positive
+253,very impressive and engaging movie,positive
+254,brilliant acting and wonderful screenplay,positive
+255,brilliant acting and wonderful screenplay,positive
+256,loved every moment of the film,positive
+257,great visuals and powerful storytelling,positive
+258,one of the best movies I have watched,positive
+259,brilliant acting and wonderful screenplay,positive
+260,outstanding music and excellent cinematography,positive
+261,great visuals and powerful storytelling,positive
+262,superb experience with strong emotions,positive
+263,fantastic movie and very entertaining,positive
+264,very impressive and engaging movie,positive
+265,one of the best movies I have watched,positive
+266,overall a normal movie experience,neutral
+267,excellent movie with outstanding performances,positive
+268,one of the best movies I have watched,positive
+269,fantastic movie and very entertaining,positive
+270,the film failed to impress,negative
+271,amazing film with great direction and story,positive
+272,loved every moment of the film,positive
+273,average film with some good moments,neutral
+274,very impressive and engaging movie,positive
+275,great visuals and powerful storytelling,positive
+276,brilliant acting and wonderful screenplay,positive
+277,outstanding music and excellent cinematography,positive
+278,amazing film with great direction and story,positive
+279,decent performances but not very engaging,neutral
+280,fantastic movie and very entertaining,positive
+281,loved every moment of the film,positive
+282,one of the best movies I have watched,positive
+283,one of the best movies I have watched,positive
+284,excellent movie with outstanding performances,positive
+285,outstanding music and excellent cinematography,positive
+286,outstanding music and excellent cinematography,positive
+287,one of the best movies I have watched,positive
+288,great visuals and powerful storytelling,positive
+289,poor execution and boring plot,negative
+290,outstanding music and excellent cinematography,positive
+291,great visuals and powerful storytelling,positive
+292,loved every moment of the film,positive
+293,very impressive and engaging movie,positive
+294,great visuals and powerful storytelling,positive
+295,amazing film with great direction and story,positive
+296,excellent movie with outstanding performances,positive
+297,brilliant acting and wonderful screenplay,positive
+298,outstanding music and excellent cinematography,positive
+299,amazing film with great direction and story,positive
+300,fantastic movie and very entertaining,positive
